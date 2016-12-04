@@ -1,4 +1,22 @@
 
+.content {
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:10px;
+    text-align:center;
+    border-style:solid;
+    border-width:2px;
+    border-color:#00703A;
+}
+
+.content img {
+    height:400px;
+    width:100%;
+    text-align:center;
+}
+
 .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -38,4 +56,13 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size:12px;
+}
+
+.slides {
+    max-width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:5px;
+    margin-bottom:5px;
+    float:center;
 }
