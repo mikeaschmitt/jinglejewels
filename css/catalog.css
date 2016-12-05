@@ -1,12 +1,47 @@
-.procuct-container {
+.product-container {
     border-style:solid;
     border-width:1px;
     border-color:black;
     max-width: 49%;
     height:300px;
     margin:5px;
+    text-align:left;
 }
 
 .product-container img {
-    height:fill;
+    height:85%;
+    width:40%;
+    padding:5px;
+}
+
+.product-container ul {
+    padding:20px;
+    margin-right: 30%;
+    float:right;
+    list-style-type:none;
+}
+
+.view a {
+    text-align:center;
+}
+
+
+.view a {
+    display: block;
+    color: green;
+    text-decoration: none;
+    padding:5px;
+    height:20px;
+    width:90px;
+}
+
+.view a:hover {
+    background-color: #00703A;
+    color:white;
+}
+
+.view {
+    float:bottom;
+    float:right;
+    margin-right:25%;
 }
