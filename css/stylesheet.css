@@ -1,27 +1,30 @@
 .contactUs {
-	padding-top:20px;
+    padding-top: 20px;
 }
+
 #jjd {
-font-style: italic;
-font-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: italic;
+    font-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #DC143C;
 }
+
 .content {
-    margin-left:10%;
-    margin-right:10%;
-    margin-top:5px;
-    margin-bottom:5px;
-    padding:10px;
-    text-align:center;
-    border-style:solid;
-    border-width:2px;
-    border-color:#00703A;
-    overflow:hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00703A;
+    overflow: hidden;
 }
 
 .content img {
-    height:400px;
-    width:100%;
-    text-align:center;
+    height: 400px;
+    width: 100%;
+    text-align: center;
 }
 
 .navigation ul {
@@ -50,30 +53,30 @@ font-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
 .footer {
     background-color: #00703A;
-    text-align:center;
-    overflow:hidden;
-    color:white;
-    padding:10px;
-	position:fixed;
-	width:100%;
-	bottom:0;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .footer a {
-    list-style-type:none;
+    list-style-type: none;
     text-decoration: none;
     color: white;
 }
 
 .footer a:hover {
-    color:green;
+    color: green;
 }
 
 .slides {
-    max-width:80%;
-    margin-left:10%;
-    margin-right:10%;
-    margin-top:5px;
-    margin-bottom:5px;
-    float:center;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: center;
 }
