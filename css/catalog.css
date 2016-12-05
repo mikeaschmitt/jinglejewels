@@ -1,63 +1,75 @@
 .product-container {
-    border-style:solid;
-    border-width:1px;
-    border-color:black;
-    max-width: 50%;
-    height:200px;
-    text-align:left;
-    float:left;
-    padding:5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    float: left;
+    padding: 5px;
 }
 
 .product-container img {
-    height:80%;
-    width:40%;
-    padding:5px;
-    float:left;
+    height: 80%;
+    width: 40%;
+    padding: 5px;
+    float: left;
 }
 
 .product-container ul {
-    padding:20px;
-    list-style-type:none;
-    height:100%;
-    position:relative;
-    margin:auto;
+    padding: 20px;
+    list-style-type: none;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.product-container ul li {
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    text-overflow: ellipsis;
+    max-width: 45%;
 }
 
 .view a {
-    text-align:center;
-    float:left;
+    text-align: center;
+    float: left;
 }
-
 
 .view a {
     display: block;
     color: green;
     text-decoration: none;
-    padding:5px;
-    height:20px;
-    width:115px;
+    padding: 5px;
+    height: 20px;
+    width: 115px;
 }
 
 .view a:hover {
     background-color: #00703A;
-    color:white;
+    color: white;
 }
 
 .view {
-    float:right;
-    margin-right:25%;
+    float: right;
+    margin-right: 25%;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    text-overflow: ellipsis;
+    max-width: 45%;
 }
 
 .view ul {
-    list-style-type:none;
+    list-style-type: none;
     text-decoration: none;
-    text-align:right;
+    text-align: right;
 }
 
 .checkout {
-    margin:auto;
-    padding:30px;
-    float:left;
-    text-align:center;
+    margin: auto;
+    padding: 30px;
+    float: left;
+    text-align: center;
 }

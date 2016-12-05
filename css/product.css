@@ -11,6 +11,10 @@
     border-color:#00703A;
 }
 
+.product-content a {
+    margin:auto;
+}
+
 .product-content img {
     height:150px;
     width:300px;
